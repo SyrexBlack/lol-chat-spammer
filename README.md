@@ -2,8 +2,6 @@
 
 A powerful, standalone desktop application to manage and automate chat messages in League of Legends lobbies. Built with Electron, Next.js, and shadcn/ui.
 
-![Logo](public/logo.svg)
-
 ## Features
 
 -   **Role Sniper**: Automatically claims your preferred role (Top, Mid, Jungle, etc.) instantly when entering a lobby (~200ms reaction time).
