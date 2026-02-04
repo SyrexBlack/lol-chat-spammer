@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 配置项
-ROOT_DIR="/home/z/my-project/mini-services"
+ROOT_DIR="/home/syrex/my-project/mini-services"
 
 main() {
     echo "🚀 开始批量安装依赖..."

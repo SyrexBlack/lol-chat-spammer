@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 配置项
-ROOT_DIR="/home/z/my-project/mini-services"
+ROOT_DIR="/home/syrex/my-project/mini-services"
 DIST_DIR="/tmp/build_fullstack_$BUILD_ID/mini-services-dist"
 
 main() {
@@ -59,8 +59,8 @@ main() {
         fi
     done
     
-    if [ -f ./.zscripts/mini-services-start.sh ]; then
-        cp ./.zscripts/mini-services-start.sh "$DIST_DIR/mini-services-start.sh"
+    if [ -f ./.scripts/mini-services-start.sh ]; then
+        cp ./.scripts/mini-services-start.sh "$DIST_DIR/mini-services-start.sh"
         chmod +x "$DIST_DIR/mini-services-start.sh"
     fi
     
